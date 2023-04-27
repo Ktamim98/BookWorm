@@ -65,10 +65,10 @@
 			children = (
 				3FC268B429FA83A1008F3976 /* BookWormApp.swift */,
 				3FC268B629FA83A1008F3976 /* ContentView.swift */,
-				3FC268C929FACB06008F3976 /* RatingView.swift */,
-				3FC268C529FA8D71008F3976 /* DataController.swift */,
 				3FC268C729FA9C92008F3976 /* AddBookView.swift */,
 				3FC268CF29FAE62C008F3976 /* DetailView.swift */,
+				3FC268C929FACB06008F3976 /* RatingView.swift */,
+				3FC268C529FA8D71008F3976 /* DataController.swift */,
 				3FC268CB29FAD9C2008F3976 /* EmojiRatingView.swift */,
 				3FC268C229FA8D41008F3976 /* BookWorm.xcdatamodeld */,
 				3FC268B829FA83A1008F3976 /* Assets.xcassets */,

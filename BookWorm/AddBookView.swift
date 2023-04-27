@@ -18,6 +18,15 @@ struct AddBookView: View {
     @State private var genre = ""
     @State private var review = ""
     
+ 
+    
+    var hasValid: Bool{
+            if title.isEmpty || author.isEmpty{
+                return false
+            }
+            return true
+        }
+    
     let genres = ["Fantasy", "Horror", "Kids", "Thriller", "Poetry", "Mystery", "Romance"]
     
     
@@ -51,13 +60,16 @@ struct AddBookView: View {
                         newBook.rating = Int16(rating)
                         newBook.genre = genre
                         
-                        
+                            
                         try? moc.save()
                         dismiss()
                     }
+                    .disabled(hasValid == false)
+                    
                 }
             }
             .navigationTitle("Add Book")
+            
         }
     }
 }
