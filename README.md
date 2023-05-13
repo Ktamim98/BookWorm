@@ -1,5 +1,8 @@
 # BookWorm
 Bookworm is an iOS application that helps users keep track of their reading list. With Bookworm, users can add new books to their reading list, rate them, and write reviews. Users can also delete books they no longer want to track.The application is built using SwiftUI and CoreData frameworks.
+
+https://github.com/Ktamim98/BookWorm/assets/124142522/b94e358f-95b0-4531-938c-891764a81f3a
+
 ## Features
 The application includes the following features:
 
@@ -32,7 +35,7 @@ Dismiss the book details view using the @Environment(.dismiss) property.
 - genre (String)
 - rating (Int16)
 - review (String)
-- 
+
 #### Data Controller
 - The app uses a data controller to manage the Core Data stack. The data controller creates an NSPersistentContainer and loads the persistent stores.
 
